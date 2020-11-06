@@ -1,0 +1,16 @@
+版本：“ 1 ”
+规则：                       ＃规则数组
+  -基数：master             ＃必需。
+    上游目标分支：wei：master     ＃必需。必须在同一派生网络中。
+    mergeMethod：hardreset   ＃可选，[无，合并，
+    压缩，变基，硬重置]之一，默认值：无。mergeUnstable：false     ＃可选，即使mergeable_state不干净，也可以合并合并请求。默认值：false 
+  -基地：开发
+    上游：master         ＃必需。可以是同一分叉存储库中的分支。
+    申请人：               ＃可选
+      -伟
+    审稿：               ＃可选
+      -伟
+    conflictReviewers：       ＃可选，在合并冲突分配审阅
+      -伟
+标签：“：arrow_heading_down：拉”   ＃可选
+conflictLabel：“合并冲突”      ＃ 可选，在合并冲突时分配一个自定义标签，默认：merge-conflict
